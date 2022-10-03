@@ -24,7 +24,7 @@ requests = "^2.25.1"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"
-mypy = "^0.900"
+mypy = "^0.982"
 pytest = "^6.2.0"
 black = "^21.11b1"
 pytest-cov = "^2.12.1"
