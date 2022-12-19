@@ -29,7 +29,7 @@ pytest = "^6.2.0"
 black = "^21.11b1"
 pytest-cov = "^2.12.1"
 coverage = "^6.1"
-isort = "^5.10.1"
+isort = "^5.11.3"
 aws-sam-cli = "^1.33.0"
 cfn-lint = "^0.55.0"
 
