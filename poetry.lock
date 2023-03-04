@@ -56,19 +56,19 @@ dev = ["black (==22.3.0)", "coverage (==5.3)", "flake8 (==3.3.0)", "flake8 (==3.
 
 [[package]]
 name = "aws-sam-cli"
-version = "1.75.0"
+version = "1.76.0"
 description = "AWS SAM CLI is a CLI tool for local development and testing of Serverless applications"
 category = "dev"
 optional = false
 python-versions = ">=3.7, <=4.0, !=4.0"
 files = [
-    {file = "aws-sam-cli-1.75.0.tar.gz", hash = "sha256:02f7f4723dd567a7bb9807f74469ee81601634de257da9d7869b604c63759626"},
-    {file = "aws_sam_cli-1.75.0-py3-none-any.whl", hash = "sha256:0faad9817543c30b66b5e63037dabbc28e2bd050e9d52a9611cdecacf4e160a9"},
+    {file = "aws-sam-cli-1.76.0.tar.gz", hash = "sha256:1d2ab13b415d73bbdf5ecde0dc6ff2eb952873fe1bba53c3910362453afcca70"},
+    {file = "aws_sam_cli-1.76.0-py3-none-any.whl", hash = "sha256:dceb2d49edcf2c3e53ea034cf43ea002cb9c41779687e7d75cdec8a1f6f85c5c"},
 ]
 
 [package.dependencies]
 aws-lambda-builders = "1.27.0"
-aws-sam-translator = "1.60.0"
+aws-sam-translator = "1.60.1"
 boto3 = ">=1.19.5,<2.0.0"
 cfn-lint = ">=0.72,<1.0"
 chevron = ">=0.12,<1.0"
@@ -88,7 +88,6 @@ tomlkit = "0.7.2"
 typing-extensions = ">=4.4.0,<4.5.0"
 tzlocal = "3.0"
 watchdog = "2.1.2"
-Werkzeug = "<2.1"
 
 [package.extras]
 dev = ["black (==22.6.0)", "boto3-stubs[apigateway,cloudformation,ecr,iam,lambda,s3,schemas,secretsmanager,signer,stepfunctions,sts,xray] (==1.21.21)", "coverage (==5.3)", "mypy (==0.790)", "parameterized (==0.7.4)", "psutil (==5.9.0)", "pytest (==6.1.1)", "pytest-cov (==2.10.1)", "pytest-forked (==1.3.0)", "pytest-json-report (==1.5.0)", "pytest-rerunfailures (==9.1.1)", "pytest-timeout (==1.4.2)", "pytest-xdist (==2.1.0)", "ruff (==0.0.251)", "types-PyYAML (==6.0.12)", "types-chevron (==0.14.2)", "types-psutil (==5.9.5.1)", "types-pywin32 (==304.0.0.1)", "types-setuptools (==65.4.0.0)"]
@@ -96,14 +95,14 @@ pre-dev = ["ruff (==0.0.251)"]
 
 [[package]]
 name = "aws-sam-translator"
-version = "1.60.0"
+version = "1.60.1"
 description = "AWS SAM Translator is a library that transform SAM templates into AWS CloudFormation templates"
 category = "dev"
 optional = false
 python-versions = ">=3.7, <=4.0, !=4.0"
 files = [
-    {file = "aws-sam-translator-1.60.0.tar.gz", hash = "sha256:ba3c4e38c6dd2f7e530f71eec2012b491fb7cde934d0ff5db4145209995095dd"},
-    {file = "aws_sam_translator-1.60.0-py3-none-any.whl", hash = "sha256:b104e327a8542cb966ca9e1ddf7f94d7821497d4c8c4a66ef0eb5e2ec4212af1"},
+    {file = "aws-sam-translator-1.60.1.tar.gz", hash = "sha256:a73f5ad997e63f36ffc77dcfbe23fbaa68bafdfea993420b7a9c40b2f190e985"},
+    {file = "aws_sam_translator-1.60.1-py3-none-any.whl", hash = "sha256:52192c137e4961ca086bb4fd03f515bafe18cdb3ce335f95df01b792d1579ee5"},
 ]
 
 [package.dependencies]
@@ -1781,4 +1780,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.7"
-content-hash = "2d4fd9f6fcf23a037ff97fa5b61e91a31c8cdbfe9d8e193ac285d4e9cbddd2d1"
+content-hash = "4c7a4085f4be39a10f7475358194c6062908ab1d1f94728ee4009b36ba71c877"
