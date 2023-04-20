@@ -36,14 +36,14 @@ tests-no-zope = ["cloudpickle", "cloudpickle", "hypothesis", "hypothesis", "mypy
 
 [[package]]
 name = "aws-lambda-builders"
-version = "1.29.0"
+version = "1.30.0"
 description = "Python library to compile, build & package AWS Lambda functions for several runtimes & frameworks."
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "aws_lambda_builders-1.29.0-py3-none-any.whl", hash = "sha256:dca37c6beb1fc88958a02aea20bc529ccea5694d489541e91199b49fcbd0bc0a"},
-    {file = "aws_lambda_builders-1.29.0.tar.gz", hash = "sha256:292e4a52550a27a80a46f66b3d3256840f252df343ef82c38f5d89f3073e9820"},
+    {file = "aws_lambda_builders-1.30.0-py3-none-any.whl", hash = "sha256:861d3e6099590562fcb9f6fc5d014a26f5b5fc8aebb1d18529cd4179514f2a48"},
+    {file = "aws_lambda_builders-1.30.0.tar.gz", hash = "sha256:ab22ffe47995bbbaff531af453746f3365fe01947c1ea8d98a7ae3ab52b46426"},
 ]
 
 [package.dependencies]
@@ -55,18 +55,18 @@ dev = ["black (==23.3.0)", "coverage (==7.2.3)", "flake8 (==3.3.0)", "flake8 (==
 
 [[package]]
 name = "aws-sam-cli"
-version = "1.80.0"
+version = "1.81.0"
 description = "AWS SAM CLI is a CLI tool for local development and testing of Serverless applications"
 category = "dev"
 optional = false
 python-versions = ">=3.7, <=4.0, !=4.0"
 files = [
-    {file = "aws-sam-cli-1.80.0.tar.gz", hash = "sha256:ccc787ff259eb185a0e478f56f8db4c85b7ffd546801dd73c2777847ea21889e"},
-    {file = "aws_sam_cli-1.80.0-py3-none-any.whl", hash = "sha256:bba23f0ee8b774fbd683c31793bc440eff7f5c058d68be6c05e869c0310a9408"},
+    {file = "aws-sam-cli-1.81.0.tar.gz", hash = "sha256:75cc5efb97563e58835e920268bdb125d85dc4d991410f464ce22ed3dc83c7b9"},
+    {file = "aws_sam_cli-1.81.0-py3-none-any.whl", hash = "sha256:a43cade444077385e05e65c440513bfdd58bbfc0fffee4ea3f57502998fa6da2"},
 ]
 
 [package.dependencies]
-aws-lambda-builders = "1.29.0"
+aws-lambda-builders = "1.30.0"
 aws-sam-translator = "1.64.0"
 boto3 = ">=1.19.5,<2.0.0"
 cfn-lint = ">=0.75,<1.0"
