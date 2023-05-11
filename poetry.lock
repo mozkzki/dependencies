@@ -36,14 +36,14 @@ tests-no-zope = ["cloudpickle", "cloudpickle", "hypothesis", "hypothesis", "mypy
 
 [[package]]
 name = "aws-lambda-builders"
-version = "1.30.0"
+version = "1.31.0"
 description = "Python library to compile, build & package AWS Lambda functions for several runtimes & frameworks."
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "aws_lambda_builders-1.30.0-py3-none-any.whl", hash = "sha256:861d3e6099590562fcb9f6fc5d014a26f5b5fc8aebb1d18529cd4179514f2a48"},
-    {file = "aws_lambda_builders-1.30.0.tar.gz", hash = "sha256:ab22ffe47995bbbaff531af453746f3365fe01947c1ea8d98a7ae3ab52b46426"},
+    {file = "aws_lambda_builders-1.31.0-py3-none-any.whl", hash = "sha256:ffe186dfb6616ef1f64b62c921b43ad67f50fce257a39a8d2c66ac76cde4ed6b"},
+    {file = "aws_lambda_builders-1.31.0.tar.gz", hash = "sha256:e8c8353eef983b9ac037015038da5b17222f61886ccfcadb1b4aa0af44a49b90"},
 ]
 
 [package.dependencies]
@@ -55,19 +55,19 @@ dev = ["black (==23.3.0)", "coverage (==7.2.3)", "flake8 (==3.3.0)", "flake8 (==
 
 [[package]]
 name = "aws-sam-cli"
-version = "1.82.0"
+version = "1.83.0"
 description = "AWS SAM CLI is a CLI tool for local development and testing of Serverless applications"
 category = "dev"
 optional = false
 python-versions = ">=3.7, <=4.0, !=4.0"
 files = [
-    {file = "aws-sam-cli-1.82.0.tar.gz", hash = "sha256:ce5fe63b938217b995f680e590abe28bff4edd68aa956e5baccf28bd4562e0a4"},
-    {file = "aws_sam_cli-1.82.0-py3-none-any.whl", hash = "sha256:bf571f37f2d2e373bc6c624526a4e8b0ebb190897694dfa5b18245cbe7f0c3ab"},
+    {file = "aws-sam-cli-1.83.0.tar.gz", hash = "sha256:6ef88080cdbfa5af6bb14282971229d3ecee0580c535b474640427d5a53b09f1"},
+    {file = "aws_sam_cli-1.83.0-py3-none-any.whl", hash = "sha256:a1c44fb7c3534e27fd1ae464068a16a3f698fd22548dbaa7680f5415a62460a3"},
 ]
 
 [package.dependencies]
-aws-lambda-builders = "1.30.0"
-aws-sam-translator = "1.65.0"
+aws-lambda-builders = "1.31.0"
+aws-sam-translator = "1.66.0"
 boto3 = ">=1.19.5,<2.0.0"
 cfn-lint = ">=0.75,<1.0"
 chevron = ">=0.12,<1.0"
@@ -81,6 +81,7 @@ pyopenssl = "23.0.0"
 PyYAML = ">=5.4.1,<6.0.0"
 regex = "!=2021.10.8"
 requests = "2.28.2"
+rich = ">=13.3.3,<13.4.0"
 ruamel-yaml = "0.17.21"
 serverlessrepo = "0.1.10"
 tomlkit = "0.11.7"
@@ -89,19 +90,19 @@ tzlocal = "3.0"
 watchdog = "2.1.2"
 
 [package.extras]
-dev = ["black (==22.6.0)", "boto3-stubs[apigateway,cloudformation,ecr,iam,lambda,s3,schemas,secretsmanager,signer,stepfunctions,sts,xray] (==1.21.21)", "coverage (==5.3)", "filelock (==3.10.7)", "mypy (==0.790)", "parameterized (==0.8.1)", "psutil (==5.9.4)", "pytest (==7.2.2)", "pytest-cov (==4.0.0)", "pytest-forked (==1.6.0)", "pytest-json-report (==1.5.0)", "pytest-rerunfailures (==11.1.2)", "pytest-timeout (==2.1.0)", "pytest-xdist (==3.2.0)", "ruff (==0.0.261)", "types-PyYAML (==6.0.12)", "types-chevron (==0.14.2)", "types-psutil (==5.9.5.12)", "types-pywin32 (==306.0.0.0)", "types-setuptools (==65.4.0.0)"]
+dev = ["black (==22.6.0)", "boto3-stubs[apigateway,cloudformation,ecr,iam,lambda,s3,schemas,secretsmanager,signer,stepfunctions,sts,xray] (==1.21.21)", "coverage (==5.3)", "filelock (==3.10.7)", "mypy (==0.790)", "parameterized (==0.8.1)", "psutil (==5.9.4)", "pytest (==7.2.2)", "pytest-cov (==4.0.0)", "pytest-forked (==1.6.0)", "pytest-json-report (==1.5.0)", "pytest-rerunfailures (==11.1.2)", "pytest-timeout (==2.1.0)", "pytest-xdist (==3.2.0)", "ruff (==0.0.261)", "types-PyYAML (==6.0.12)", "types-chevron (==0.14.2.4)", "types-psutil (==5.9.5.12)", "types-pywin32 (==306.0.0.0)", "types-setuptools (==65.4.0.0)"]
 pre-dev = ["ruff (==0.0.261)"]
 
 [[package]]
 name = "aws-sam-translator"
-version = "1.65.0"
+version = "1.66.0"
 description = "AWS SAM Translator is a library that transform SAM templates into AWS CloudFormation templates"
 category = "dev"
 optional = false
 python-versions = ">=3.7, <=4.0, !=4.0"
 files = [
-    {file = "aws-sam-translator-1.65.0.tar.gz", hash = "sha256:34dcd1f86bfc3ae11f3defe6f67b74fe863dacf0a3b04156c41dc92600e8dc8d"},
-    {file = "aws_sam_translator-1.65.0-py3-none-any.whl", hash = "sha256:49cf0583a1bc17c686417c11132c5122b40ecbcb9980e0c9e58b65914dd76ebc"},
+    {file = "aws-sam-translator-1.66.0.tar.gz", hash = "sha256:0b9e9684ea0384fd84f5e722f7fea61896c514b95d3403aa782b69acd485dbbf"},
+    {file = "aws_sam_translator-1.66.0-py3-none-any.whl", hash = "sha256:dc4f38cd7ce2a4875d943bf10ba0745901a3a7b7fec1e40b8d13072641630c58"},
 ]
 
 [package.dependencies]
@@ -111,7 +112,7 @@ pydantic = ">=1.8,<2.0"
 typing-extensions = ">=4.4,<5"
 
 [package.extras]
-dev = ["black (==23.1.0)", "boto3 (>=1.23,<2)", "boto3-stubs[appconfig,serverlessrepo] (>=1.19.5,<2.0.0)", "coverage (>=5.3,<8)", "dateparser (>=1.1,<2.0)", "mypy (>=1.1.0,<1.2.0)", "parameterized (>=0.7,<1.0)", "pytest (>=6.2,<8)", "pytest-cov (>=2.10,<5)", "pytest-env (>=0.6,<1)", "pytest-rerunfailures (>=9.1,<12)", "pytest-xdist (>=2.5,<4)", "pyyaml (>=6.0,<7.0)", "requests (>=2.28,<3.0)", "ruamel.yaml (==0.17.21)", "ruff (==0.0.259)", "tenacity (>=8.0,<9.0)", "types-PyYAML (>=6.0,<7.0)", "types-jsonschema (>=3.2,<4.0)"]
+dev = ["black (==23.1.0)", "boto3 (>=1.23,<2)", "boto3-stubs[appconfig,serverlessrepo] (>=1.19.5,<2.0.0)", "coverage (>=5.3,<8)", "dateparser (>=1.1,<2.0)", "mypy (>=1.1.0,<1.2.0)", "parameterized (>=0.7,<1.0)", "pytest (>=6.2,<8)", "pytest-cov (>=2.10,<5)", "pytest-env (>=0.6,<1)", "pytest-rerunfailures (>=9.1,<12)", "pytest-xdist (>=2.5,<4)", "pyyaml (>=6.0,<7.0)", "requests (>=2.28,<3.0)", "ruamel.yaml (==0.17.21)", "ruff (==0.0.261)", "tenacity (>=8.0,<9.0)", "types-PyYAML (>=6.0,<7.0)", "types-jsonschema (>=3.2,<4.0)"]
 
 [[package]]
 name = "backports-zoneinfo"
@@ -926,6 +927,31 @@ files = [
 six = "*"
 
 [[package]]
+name = "markdown-it-py"
+version = "2.2.0"
+description = "Python port of markdown-it. Markdown parsing, done right!"
+category = "dev"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "markdown-it-py-2.2.0.tar.gz", hash = "sha256:7c9a5e412688bc771c67432cbfebcdd686c93ce6484913dccf06cb5a0bea35a1"},
+    {file = "markdown_it_py-2.2.0-py3-none-any.whl", hash = "sha256:5a35f8d1870171d9acc47b99612dc146129b631baf04970128b568f190d0cc30"},
+]
+
+[package.dependencies]
+mdurl = ">=0.1,<1.0"
+
+[package.extras]
+benchmarking = ["psutil", "pytest", "pytest-benchmark"]
+code-style = ["pre-commit (>=3.0,<4.0)"]
+compare = ["commonmark (>=0.9,<1.0)", "markdown (>=3.4,<4.0)", "mistletoe (>=1.0,<2.0)", "mistune (>=2.0,<3.0)", "panflute (>=2.3,<3.0)"]
+linkify = ["linkify-it-py (>=1,<3)"]
+plugins = ["mdit-py-plugins"]
+profiling = ["gprof2dot"]
+rtd = ["attrs", "myst-parser", "pyyaml", "sphinx", "sphinx-copybutton", "sphinx-design", "sphinx_book_theme"]
+testing = ["coverage", "pytest", "pytest-cov", "pytest-regressions"]
+
+[[package]]
 name = "markupsafe"
 version = "2.1.1"
 description = "Safely add untrusted strings to HTML/XML markup."
@@ -985,6 +1011,18 @@ python-versions = ">=3.6"
 files = [
     {file = "mccabe-0.7.0-py2.py3-none-any.whl", hash = "sha256:6c2d30ab6be0e4a46919781807b4f0d834ebdd6c6e3dca0bda5a15f863427b6e"},
     {file = "mccabe-0.7.0.tar.gz", hash = "sha256:348e0240c33b60bbdf4e523192ef919f28cb2c3d7d5c7794f74009290f236325"},
+]
+
+[[package]]
+name = "mdurl"
+version = "0.1.2"
+description = "Markdown URL utilities"
+category = "dev"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"},
+    {file = "mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"},
 ]
 
 [[package]]
@@ -1239,6 +1277,21 @@ files = [
     {file = "pyflakes-2.5.0-py2.py3-none-any.whl", hash = "sha256:4579f67d887f804e67edb544428f264b7b24f435b263c4614f384135cea553d2"},
     {file = "pyflakes-2.5.0.tar.gz", hash = "sha256:491feb020dca48ccc562a8c0cbe8df07ee13078df59813b83959cbdada312ea3"},
 ]
+
+[[package]]
+name = "pygments"
+version = "2.15.1"
+description = "Pygments is a syntax highlighting package written in Python."
+category = "dev"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "Pygments-2.15.1-py3-none-any.whl", hash = "sha256:db2db3deb4b4179f399a09054b023b6a586b76499d36965813c71aa8ed7b5fd1"},
+    {file = "Pygments-2.15.1.tar.gz", hash = "sha256:8ace4d3c1dd481894b2005f560ead0f9f19ee64fe983366be1a21e171d12775c"},
+]
+
+[package.extras]
+plugins = ["importlib-metadata"]
 
 [[package]]
 name = "pyopenssl"
@@ -1533,6 +1586,26 @@ urllib3 = ">=1.21.1,<1.27"
 [package.extras]
 socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
+
+[[package]]
+name = "rich"
+version = "13.3.5"
+description = "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal"
+category = "dev"
+optional = false
+python-versions = ">=3.7.0"
+files = [
+    {file = "rich-13.3.5-py3-none-any.whl", hash = "sha256:69cdf53799e63f38b95b9bf9c875f8c90e78dd62b2f00c13a911c7a3b9fa4704"},
+    {file = "rich-13.3.5.tar.gz", hash = "sha256:2d11b9b8dd03868f09b4fffadc84a6a8cda574e40dc90821bd845720ebb8e89c"},
+]
+
+[package.dependencies]
+markdown-it-py = ">=2.2.0,<3.0.0"
+pygments = ">=2.13.0,<3.0.0"
+typing-extensions = {version = ">=4.0.0,<5.0", markers = "python_version < \"3.9\""}
+
+[package.extras]
+jupyter = ["ipywidgets (>=7.5.1,<9)"]
 
 [[package]]
 name = "ruamel-yaml"
