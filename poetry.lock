@@ -55,14 +55,14 @@ dev = ["black (==23.3.0)", "coverage (==7.2.3)", "flake8 (==3.3.0)", "flake8 (==
 
 [[package]]
 name = "aws-sam-cli"
-version = "1.83.0"
+version = "1.84.0"
 description = "AWS SAM CLI is a CLI tool for local development and testing of Serverless applications"
 category = "dev"
 optional = false
 python-versions = ">=3.7, <=4.0, !=4.0"
 files = [
-    {file = "aws-sam-cli-1.83.0.tar.gz", hash = "sha256:6ef88080cdbfa5af6bb14282971229d3ecee0580c535b474640427d5a53b09f1"},
-    {file = "aws_sam_cli-1.83.0-py3-none-any.whl", hash = "sha256:a1c44fb7c3534e27fd1ae464068a16a3f698fd22548dbaa7680f5415a62460a3"},
+    {file = "aws-sam-cli-1.84.0.tar.gz", hash = "sha256:97c4023a224b3f47722963b6d2a1a4df80ec86651a40f8f63988fc4a7337ce9b"},
+    {file = "aws_sam_cli-1.84.0-py3-none-any.whl", hash = "sha256:383787936ea625e14d8740be4126a7574a81d6aae2e4e6f3b986fcc0baba6f10"},
 ]
 
 [package.dependencies]
@@ -75,7 +75,7 @@ click = ">=8.0,<9.0"
 cookiecutter = ">=2.1.1,<2.2.0"
 dateparser = ">=1.1,<2.0"
 docker = ">=4.2.0,<4.3.0"
-Flask = "<2.1"
+Flask = "<2.3"
 jmespath = ">=0.10.0,<0.11.0"
 pyopenssl = "23.0.0"
 PyYAML = ">=5.4.1,<6.0.0"
