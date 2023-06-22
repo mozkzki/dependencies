@@ -55,21 +55,21 @@ dev = ["black (==23.3.0)", "coverage (==7.2.7)", "flake8 (==3.3.0)", "flake8 (==
 
 [[package]]
 name = "aws-sam-cli"
-version = "1.87.0"
+version = "1.88.0"
 description = "AWS SAM CLI is a CLI tool for local development and testing of Serverless applications"
 category = "dev"
 optional = false
 python-versions = ">=3.7, <=4.0, !=4.0"
 files = [
-    {file = "aws-sam-cli-1.87.0.tar.gz", hash = "sha256:a0cbb01a17899b30d51bb9833cb0c286c45cd8a8f8f0eed3b5ba6adc294b7124"},
-    {file = "aws_sam_cli-1.87.0-py3-none-any.whl", hash = "sha256:304537182873f6d5af965f49e5e9bc99b0b3e696b95a11792cf9de5881677dd9"},
+    {file = "aws-sam-cli-1.88.0.tar.gz", hash = "sha256:76ad4a90149d0e1aae1afd674fc04a4673266b2cfa312a18e29c68f812e17dd9"},
+    {file = "aws_sam_cli-1.88.0-py3-none-any.whl", hash = "sha256:b5f6f380c86787f29693a5f97241478faeac668ae06c5feae2c26b84f8e0b04f"},
 ]
 
 [package.dependencies]
 aws-lambda-builders = "1.34.0"
 aws-sam-translator = "1.69.0"
 boto3 = ">=1.26.109,<2.0.0"
-cfn-lint = ">=0.77.5,<0.78.0"
+cfn-lint = ">=0.77.9,<0.78.0"
 chevron = ">=0.12,<1.0"
 click = ">=8.0,<9.0"
 cookiecutter = ">=2.1.1,<2.2.0"
