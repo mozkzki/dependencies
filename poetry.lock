@@ -55,19 +55,19 @@ dev = ["black (==23.3.0)", "coverage (==7.2.7)", "flake8 (==3.3.0)", "flake8 (==
 
 [[package]]
 name = "aws-sam-cli"
-version = "1.88.0"
+version = "1.89.0"
 description = "AWS SAM CLI is a CLI tool for local development and testing of Serverless applications"
 category = "dev"
 optional = false
 python-versions = ">=3.7, <=4.0, !=4.0"
 files = [
-    {file = "aws-sam-cli-1.88.0.tar.gz", hash = "sha256:76ad4a90149d0e1aae1afd674fc04a4673266b2cfa312a18e29c68f812e17dd9"},
-    {file = "aws_sam_cli-1.88.0-py3-none-any.whl", hash = "sha256:b5f6f380c86787f29693a5f97241478faeac668ae06c5feae2c26b84f8e0b04f"},
+    {file = "aws-sam-cli-1.89.0.tar.gz", hash = "sha256:19c5a3d0611293b0734a2f5c514a227568eaaf9cbeb570571b6ea5ea093aca2e"},
+    {file = "aws_sam_cli-1.89.0-py3-none-any.whl", hash = "sha256:b9121b230a3b8304b1280d69a7a49ce5bf074f7931b3cf2adf9df60bd6bd5157"},
 ]
 
 [package.dependencies]
 aws-lambda-builders = "1.34.0"
-aws-sam-translator = "1.69.0"
+aws-sam-translator = "1.70.0"
 boto3 = ">=1.26.109,<2.0.0"
 cfn-lint = ">=0.77.9,<0.78.0"
 chevron = ">=0.12,<1.0"
@@ -95,14 +95,14 @@ pre-dev = ["ruff (==0.0.272)"]
 
 [[package]]
 name = "aws-sam-translator"
-version = "1.69.0"
+version = "1.70.0"
 description = "AWS SAM Translator is a library that transform SAM templates into AWS CloudFormation templates"
 category = "dev"
 optional = false
 python-versions = ">=3.7, <=4.0, !=4.0"
 files = [
-    {file = "aws-sam-translator-1.69.0.tar.gz", hash = "sha256:bf26c061675f20367e87d48963ada1ec983a8d897e85db02d0f35913a6174bb0"},
-    {file = "aws_sam_translator-1.69.0-py3-none-any.whl", hash = "sha256:c6ed7a25c77d30d3d31156049415d15fde46c0d3b77a4c5cdc0ef8b53ba9bca2"},
+    {file = "aws-sam-translator-1.70.0.tar.gz", hash = "sha256:753288eda07b057e5350773b7617076962b59404d49cd05e2259ac96a7694436"},
+    {file = "aws_sam_translator-1.70.0-py3-none-any.whl", hash = "sha256:a2df321607d29791893707ef2ded9e79be00dbb71ac430696f6e6d7d0b0301a5"},
 ]
 
 [package.dependencies]
