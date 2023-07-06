@@ -55,14 +55,14 @@ dev = ["black (==23.3.0)", "coverage (==7.2.7)", "flake8 (==3.3.0)", "flake8 (==
 
 [[package]]
 name = "aws-sam-cli"
-version = "1.89.0"
+version = "1.90.0"
 description = "AWS SAM CLI is a CLI tool for local development and testing of Serverless applications"
 category = "dev"
 optional = false
 python-versions = ">=3.7, <=4.0, !=4.0"
 files = [
-    {file = "aws-sam-cli-1.89.0.tar.gz", hash = "sha256:19c5a3d0611293b0734a2f5c514a227568eaaf9cbeb570571b6ea5ea093aca2e"},
-    {file = "aws_sam_cli-1.89.0-py3-none-any.whl", hash = "sha256:b9121b230a3b8304b1280d69a7a49ce5bf074f7931b3cf2adf9df60bd6bd5157"},
+    {file = "aws-sam-cli-1.90.0.tar.gz", hash = "sha256:25751f737ecee9c4d33824d3b56134e66f86478883c81b2644fc97a13471166a"},
+    {file = "aws_sam_cli-1.90.0-py3-none-any.whl", hash = "sha256:8c7644457e3e3bed517e57d42807c445d7fcbd4794089d13ede3b2a898a249cb"},
 ]
 
 [package.dependencies]
@@ -82,7 +82,7 @@ PyYAML = ">=5.4.1,<6.0.0"
 regex = "!=2021.10.8"
 requests = ">=2.31.0,<2.32.0"
 rich = ">=13.3.3,<13.4.0"
-ruamel-yaml = ">=0.17.21,<0.18.0"
+ruamel-yaml = ">=0.17.32,<0.18.0"
 serverlessrepo = "0.1.10"
 tomlkit = "0.11.8"
 typing-extensions = ">=4.4.0,<4.5.0"
@@ -90,7 +90,7 @@ tzlocal = "3.0"
 watchdog = "2.1.2"
 
 [package.extras]
-dev = ["black (==22.6.0)", "boto3-stubs[apigateway,cloudformation,ecr,iam,lambda,s3,schemas,secretsmanager,signer,stepfunctions,sts,xray] (==1.26.131)", "coverage (==7.2.7)", "filelock (==3.12.0)", "mypy (==1.3.0)", "parameterized (==0.9.0)", "psutil (==5.9.5)", "pytest (>=7.2.2,<7.3.0)", "pytest-cov (==4.1.0)", "pytest-forked (==1.6.0)", "pytest-json-report (==1.5.0)", "pytest-metadata (==2.0.4)", "pytest-rerunfailures (==11.1.2)", "pytest-timeout (==2.1.0)", "pytest-xdist (==3.2.0)", "ruff (==0.0.272)", "types-PyYAML (==6.0.12)", "types-Pygments (==2.15.0.1)", "types-chevron (==0.14.2.4)", "types-colorama (==0.4.15.11)", "types-dateparser (==1.1.4.9)", "types-docutils (==0.20.0.1)", "types-jsonschema (==4.17.0.8)", "types-psutil (==5.9.5.12)", "types-pyOpenSSL (==23.2.0.0)", "types-pywin32 (==306.0.0.0)", "types-requests (==2.31.0.1)", "types-setuptools (==65.4.0.0)", "types-urllib3 (==1.26.25.13)"]
+dev = ["black (==22.6.0)", "boto3-stubs[apigateway,cloudformation,ecr,iam,lambda,s3,schemas,secretsmanager,signer,stepfunctions,sts,xray] (==1.26.131)", "coverage (==7.2.7)", "filelock (==3.12.2)", "mypy (==1.3.0)", "parameterized (==0.9.0)", "psutil (==5.9.5)", "pytest (>=7.2.2,<7.3.0)", "pytest-cov (==4.1.0)", "pytest-forked (==1.6.0)", "pytest-json-report (==1.5.0)", "pytest-metadata (==2.0.4)", "pytest-rerunfailures (==11.1.2)", "pytest-timeout (==2.1.0)", "pytest-xdist (==3.2.0)", "ruff (==0.0.272)", "types-PyYAML (==6.0.12)", "types-Pygments (==2.15.0.1)", "types-chevron (==0.14.2.4)", "types-colorama (==0.4.15.11)", "types-dateparser (==1.1.4.9)", "types-docutils (==0.20.0.1)", "types-jsonschema (==4.17.0.8)", "types-psutil (==5.9.5.12)", "types-pyOpenSSL (==23.2.0.0)", "types-pywin32 (==306.0.0.2)", "types-requests (==2.31.0.1)", "types-setuptools (==65.4.0.0)", "types-urllib3 (==1.26.25.13)"]
 pre-dev = ["ruff (==0.0.272)"]
 
 [[package]]
@@ -1603,18 +1603,18 @@ jupyter = ["ipywidgets (>=7.5.1,<9)"]
 
 [[package]]
 name = "ruamel-yaml"
-version = "0.17.21"
+version = "0.17.32"
 description = "ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order"
 category = "dev"
 optional = false
 python-versions = ">=3"
 files = [
-    {file = "ruamel.yaml-0.17.21-py3-none-any.whl", hash = "sha256:742b35d3d665023981bd6d16b3d24248ce5df75fdb4e2924e93a05c1f8b61ca7"},
-    {file = "ruamel.yaml-0.17.21.tar.gz", hash = "sha256:8b7ce697a2f212752a35c1ac414471dc16c424c9573be4926b56ff3f5d23b7af"},
+    {file = "ruamel.yaml-0.17.32-py3-none-any.whl", hash = "sha256:23cd2ed620231677564646b0c6a89d138b6822a0d78656df7abda5879ec4f447"},
+    {file = "ruamel.yaml-0.17.32.tar.gz", hash = "sha256:ec939063761914e14542972a5cba6d33c23b0859ab6342f61cf070cfc600efc2"},
 ]
 
 [package.dependencies]
-"ruamel.yaml.clib" = {version = ">=0.2.6", markers = "platform_python_implementation == \"CPython\" and python_version < \"3.11\""}
+"ruamel.yaml.clib" = {version = ">=0.2.7", markers = "platform_python_implementation == \"CPython\" and python_version < \"3.12\""}
 
 [package.extras]
 docs = ["ryd"]
